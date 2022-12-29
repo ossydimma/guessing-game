@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    margin: auto;
+    width: 400px;
+    height: 32vh;
+    background-color: midnightblue;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding-top: 2px;
+}
+#again, #enter {
+    width: 80px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 10px ;
+}
+#enter:hover, #again:hover {
+    background-color: #111648;
+    color: floralwhite;
+}
+
